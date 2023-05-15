@@ -28,7 +28,7 @@ tb.pts.narm.sf <- st_as_sf(tb.pts.narm)
 
 library(ggmap)
 
-register_google(key = "AIzaSyAJhmRdeFyKwdt1JWEgMMQP35mRb5gb3JM")
+register_google(key = "...")
 
 map <- get_map(location = "Italy", source = "osm")
                
